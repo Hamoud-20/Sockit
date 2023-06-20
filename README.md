@@ -40,7 +40,8 @@ pip install -r requirements.txt
 python3 sockit.py -h
 ```
 <img width="1062" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/978f1b3a-7ac0-49f4-9a47-b95609ee641b">
-This will display help for the tool. Here are all the switches it supports.
+
+# This will display help for the tool. Here are all the switches it supports.
 
 ```console
 options:
