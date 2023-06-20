@@ -7,3 +7,5 @@ For IP addresses, domains, hashes and PCAP files, it sends requests to the Virus
 
 For URLs, it uses the URLScan.io API to scan the URL and fetch scan results including screenshots, network information and anomaly detection.
 This script would be useful for security analysts, threat hunters and malware researchers.
+
+# Download
