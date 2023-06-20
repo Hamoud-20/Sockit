@@ -27,4 +27,7 @@ This script would be useful for security analysts, threat hunters and malware re
 
 •SSL fingerprints, it checks against the abuse.ch SSL blacklist.
 # Installation
+Step 1:
+```
 git clone https://github.com/az7rb/crt.sh.git && cd crt.sh/ && chmod +x crt.sh
+```
