@@ -61,3 +61,20 @@ options:
   -u SCAN, --scan SCAN  Domain/URL to scan and display the results
   -s SSL, --ssl SSL     Fingerprint to check
 ```
+# Running sockit
+```
+python3 sockit.py -H 86b6c59aa48a69e16d3313d982791398
+```
+<img width="1200" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/7224c1ac-46a8-4067-a730-59be9d4d8aa6">
+
+```
+python script.py -p malicious.pcap -o hashes.txt
+```
+<img width="679" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/5d650881-ef8e-44d2-ac45-02c4fa4d5876">
+
+```
+python script.py -f hashes.txt
+```
+
+<img width="902" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/e1e49be3-4674-458d-9020-50134566d766">
+
