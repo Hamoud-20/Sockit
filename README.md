@@ -26,4 +26,5 @@ This script would be useful for security analysts, threat hunters and malware re
 •Extracted MD5 hashes can be used for further analysis.
 
 •SSL fingerprints, it checks against the abuse.ch SSL blacklist.
-
+# Installation
+git clone https://github.com/az7rb/crt.sh.git && cd crt.sh/ && chmod +x crt.sh
