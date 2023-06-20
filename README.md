@@ -40,6 +40,23 @@ pip install -r requirements.txt
 python3 sockit.py -h
 ```
 <img width="1062" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/978f1b3a-7ac0-49f4-9a47-b95609ee641b">
+This will display help for the tool. Here are all the switches it supports.
 
-
-
+```console
+options:
+  -h, --help            show this help message and exit
+  -i IP_ADDRESS, --ip_address IP_ADDRESS
+                        IP address to check
+  -d DOMAIN, --domain DOMAIN
+                        Domain to check
+  -H FILE_HASH, --file_hash FILE_HASH
+                        File hash to check
+  -p PCAP_FILE, --pcap_file PCAP_FILE
+                        PCAP file to extract hashes from
+  -o OUTPUT_FILE, --output_file OUTPUT_FILE
+                        Output file for extracted hashes
+  -f HASH_FILE, --hash_file HASH_FILE
+                        File containing list of file hashes to check
+  -u SCAN, --scan SCAN  Domain/URL to scan and display the results
+  -s SSL, --ssl SSL     Fingerprint to check
+```
