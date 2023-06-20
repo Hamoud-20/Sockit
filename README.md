@@ -62,10 +62,20 @@ options:
   -s SSL, --ssl SSL     Fingerprint to check
 ```
 # Running sockit
+
+# Scan IP addresse
+```
+python3 sockit.py -i 61.83.40.108
+```
+<img width="1054" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/7dd45309-544f-42c4-b92e-e1c6aa28b4d1">
+
+# Scan hashe
+
 ```
 python3 sockit.py -H 86b6c59aa48a69e16d3313d982791398
 ```
 <img width="1200" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/7224c1ac-46a8-4067-a730-59be9d4d8aa6">
+# extracts MD5 hashes of files to pcap 
 
 ```
 python script.py -p malicious.pcap -o hashes.txt
@@ -73,16 +83,18 @@ python script.py -p malicious.pcap -o hashes.txt
 
 <img width="679" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/5d650881-ef8e-44d2-ac45-02c4fa4d5876">
 
-
+# Scan FILE HASH
 ```
 python script.py -f hashes.txt
 ```
-
-
-
-
-
-
-
 <img width="902" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/e1e49be3-4674-458d-9020-50134566d766">
+
+# SSL fingerprints
+```
+python3 sockit.py -s d4fa6554b5f6243a50eb1453e440bba58da56f61
+```
+<img width="712" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/b74c27cf-3f99-4c00-8bc5-483b375fa12c">
+
+# Scan URL 
+
 
