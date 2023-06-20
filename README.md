@@ -6,4 +6,4 @@ The script takes in arguments to specify the type of scan to perform - IP, domai
 For IP addresses, domains, hashes and PCAP files, it sends requests to the VirusTotal API and parses the response to provide a summary of results to the user including detection rates, last scan date, detected C2 servers (for domains) and contacted URLs. For PCAP files, it extracts MD5 hashes of payloads and checks them against VirusTotal.
 
 For URLs, it uses the URLScan.io API to scan the URL and fetch scan results including screenshots, network information and anomaly detection.
-This script would be useful for security analysts, threat hunters and malware researchers
+This script would be useful for security analysts, threat hunters and malware researchers.
