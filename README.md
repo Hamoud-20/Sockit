@@ -29,5 +29,17 @@ This script would be useful for security analysts, threat hunters and malware re
 # Installation
 Step 1:
 ```
-git clone https://github.com/az7rb/crt.sh.git && cd crt.sh/ && chmod +x crt.sh
+git clone https://github.com/Hamoud-20/Sockit.git
 ```
+Step 2:
+```
+pip install -r requirements.txt
+```
+# Usage
+```
+python3 sockit.py -h
+```
+<img width="1062" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/978f1b3a-7ac0-49f4-9a47-b95609ee641b">
+
+
+
