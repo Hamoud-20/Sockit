@@ -8,4 +8,20 @@ For IP addresses, domains, hashes and PCAP files, it sends requests to the Virus
 For URLs, it uses the URLScan.io API to scan the URL and fetch scan results including screenshots, network information and anomaly detection.
 This script would be useful for security analysts, threat hunters and malware researchers.
 
-# Download
+# The main point
+
+•Scans IP addresses, domains, file hashes and PCAP files against VirusTotal.
+
+•Extracts MD5 hashes from PCAP files and checks them against VirusTotal.
+
+•Scans URLs using the URLScan.io API.
+
+•Provides a summary of scan results including detection rates, last scan date, detected C2 servers and contacted URLs.
+
+•Automates analysis of IOCs and suspicious files/PCAPs.
+
+•Saves time by aggregating results from multiple scans in one place.
+
+•Shows how malicious or clean an artifact is based on detection rates.
+
+•Extracted MD5 hashes can be used for further analysis.
