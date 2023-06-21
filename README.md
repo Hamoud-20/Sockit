@@ -72,20 +72,25 @@ options:
 
 # Scan IP addresse
 ```
-python3 sockit.py -i 61.83.40.108
+python sockit.py -i 61.83.40.108
 ```
 
 <img width="1078" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/e3aab0a4-06d3-448e-89b1-0c27c7fcaea2">
 
+# Scan Domain
+```
+python3 sockit.py -d 4kqd3hmqgptupi3p.6ntrb6.top
+```
+
 # Scan hashe
 
 ```
-python3 sockit.py -H 86b6c59aa48a69e16d3313d982791398
+python sockit.py -H 86b6c59aa48a69e16d3313d982791398
 ```
 
 <img width="1248" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/3ca006b4-241b-4f0c-a099-236259db7895">
 
-# extracts MD5 hashes of files to pcap 
+# Extracts MD5 hashes of files to pcap 
 
 ```
 python  sockit.py -p malicious.pcap -o hashes.txt
@@ -93,21 +98,22 @@ python  sockit.py -p malicious.pcap -o hashes.txt
 
 <img width="631" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/945c2871-781f-4d99-ba4f-fffd1669bc74">
 
-# Scan FILE HASH
+# Scan FILE Hash
 ```
-python  sockit.py -f hashes.txt
+python sockit.py -f hashes.txt
 ```
-<img width="902" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/e1e49be3-4674-458d-9020-50134566d766">
+<img width="1351" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/7d2d687c-0e3d-4ff0-86d3-47b80d4d29e3">
 
 # SSL fingerprints
 ```
-python3 sockit.py -s d4fa6554b5f6243a50eb1453e440bba58da56f61
+python sockit.py -s d4fa6554b5f6243a50eb1453e440bba58da56f61
 ```
-<img width="712" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/b74c27cf-3f99-4c00-8bc5-483b375fa12c">
+<img width="749" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/6a9d0c51-3927-41fe-83c7-5b7bcc6dd3d9">
+<img width="809" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/a2d81965-0ad1-4e37-9e5e-0cacefc0e09d">
 
 # Scan URL 
 ```
-python3 sockit.py -u google.com
+python sockit.py -u google.com
 ```
 # Summary
 This tool provides a way to quickly check IP addresses, domains, file hashes and PCAP files for maliciousness. Here are the main features:
