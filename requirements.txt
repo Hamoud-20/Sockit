@@ -1,5 +1,5 @@
 prettytable==2.2.0
-scapy==2.4.5
+scapy==2.5.0
 colorama==0.4.4
 termcolor==1.1.0
 requests==2.26.0
