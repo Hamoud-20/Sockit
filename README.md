@@ -46,7 +46,7 @@ URLSCAN_API_KEY = "YOUR_API_KEY"
 ```
 python3 sockit.py -h
 ```
-<img width="1062" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/978f1b3a-7ac0-49f4-9a47-b95609ee641b">
+<img width="1138" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/d739a1ba-862a-48d2-ba09-97f4649251c6">
 
 # This will display help for the tool. Here are all the switches it supports.
 
@@ -75,7 +75,7 @@ options:
 python3 sockit.py -i 61.83.40.108
 ```
 
-<img width="1054" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/7dd45309-544f-42c4-b92e-e1c6aa28b4d1">
+<img width="1078" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/e3aab0a4-06d3-448e-89b1-0c27c7fcaea2">
 
 # Scan hashe
 
@@ -83,19 +83,19 @@ python3 sockit.py -i 61.83.40.108
 python3 sockit.py -H 86b6c59aa48a69e16d3313d982791398
 ```
 
-<img width="1200" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/7224c1ac-46a8-4067-a730-59be9d4d8aa6">
+<img width="1248" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/3ca006b4-241b-4f0c-a099-236259db7895">
 
 # extracts MD5 hashes of files to pcap 
 
 ```
-python script.py -p malicious.pcap -o hashes.txt
+python  sockit.py -p malicious.pcap -o hashes.txt
 ```
 
-<img width="679" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/5d650881-ef8e-44d2-ac45-02c4fa4d5876">
+<img width="631" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/945c2871-781f-4d99-ba4f-fffd1669bc74">
 
 # Scan FILE HASH
 ```
-python script.py -f hashes.txt
+python  sockit.py -f hashes.txt
 ```
 <img width="902" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/e1e49be3-4674-458d-9020-50134566d766">
 
