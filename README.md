@@ -101,5 +101,5 @@ python3 sockit.py -s d4fa6554b5f6243a50eb1453e440bba58da56f61
 python3 sockit.py -u google.com
 ```
 # Summary
-this script allows you to quickly get threat intelligence reports and details for various IOCs (IPs, domains, hashes, URLs, SSL FP etc.) from reputed public and private sources. Please let me know if you need any clarification or have additional questions!
-
+We don't stop here, the tool will be updated and more features and improvements added 
+Happy threat hunting!
