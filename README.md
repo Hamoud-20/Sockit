@@ -101,5 +101,22 @@ python3 sockit.py -s d4fa6554b5f6243a50eb1453e440bba58da56f61
 python3 sockit.py -u google.com
 ```
 # Summary
+This tool provides a way to quickly check IP addresses, domains, file hashes and PCAP files for maliciousness. Here are the main features:
+
+- Checking IP addresses, domains and file hashes against VirusTotal's API. It will return a summary of detections, status (clean/suspicious/malicious), number of total/detected and last analysis date.
+
+- Extracting file hashes from a PCAP file and saving them to a text file. 
+
+- Scanning URLs using URLScan.io API and displaying a summary of the scan results including title, status code, load time, responses and verdicts. 
+
+- Checking SSL fingerprints against an SSL blacklist to detect suspicious certificates.
+
+- Automatically formatting the results in a pretty table for easy reading. Red color is used for malicious, yellow for suspicious and green for clean results.
+
+- The tool is implemented using Python with libraries like requests, scapy and prettytable for nice output formatting. It requires an API key from VirusTotal and URLScan.io to function.
+
+So in summary, it provides an easy way to check IPs, domains, files and URLs for signs of malware using various threat intelligence APIs. The color-coded table output makes it easy to quickly identify suspicious entities.
+
+Hope this helps summarize the key features of the tool! Let me know if you have any other questions.
 We don't stop here, the tool will be updated and more features and improvements added 
 Happy threat hunting!
