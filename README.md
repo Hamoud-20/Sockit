@@ -36,9 +36,10 @@ Step 2:
 pip install -r requirements.txt
 ```
 Step 3:
-Set up your VirusTotal API and urlscan.io key:
+Set up your VirusTotal API and urlscan.io API key:
 ```
-
+API_KEY = "YOUR_API_KEY"
+URLSCAN_API_KEY = "YOUR_API_KEY"
 ```
 
 # Usage
