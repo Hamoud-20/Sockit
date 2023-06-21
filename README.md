@@ -103,7 +103,7 @@ python3 sockit.py -p malicious.pcap -o hashes.txt
 ```
 python3 sockit.py -f hashes.txt
 ```
-<img width="1351" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/7d2d687c-0e3d-4ff0-86d3-47b80d4d29e3">
+<img width="1043" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/60df57f3-593a-4722-88f5-268a51111b50">
 
 # SSL fingerprints
 ```
@@ -114,8 +114,10 @@ python3 sockit.py -s d4fa6554b5f6243a50eb1453e440bba58da56f61
 
 # Scan URL 
 ```
-python3 sockit.py -u google.com
+python3 sockit.py -u https://tryhackme.com/paths
 ```
+<img width="829" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/30010681-0a44-4085-aa31-d734bd6b775b">
+
 # Summary
 This tool provides a way to quickly check IP addresses, domains, file hashes and PCAP files for maliciousness. Here are the main features:
 
