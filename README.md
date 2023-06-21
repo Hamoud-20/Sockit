@@ -74,6 +74,7 @@ options:
 ```
 python3 sockit.py -i 61.83.40.108
 ```
+
 <img width="1054" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/7dd45309-544f-42c4-b92e-e1c6aa28b4d1">
 
 # Scan hashe
@@ -81,6 +82,7 @@ python3 sockit.py -i 61.83.40.108
 ```
 python3 sockit.py -H 86b6c59aa48a69e16d3313d982791398
 ```
+
 <img width="1200" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/7224c1ac-46a8-4067-a730-59be9d4d8aa6">
 
 # extracts MD5 hashes of files to pcap 
