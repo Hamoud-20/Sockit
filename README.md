@@ -46,7 +46,7 @@ URLSCAN_API_KEY = "YOUR_API_KEY"
 ```
 python3 sockit.py -h
 ```
-<img width="1138" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/d739a1ba-862a-48d2-ba09-97f4649251c6">
+<img width="924" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/17c15be9-112d-4f0b-92ef-81ab3d1bae38">
 
 # This will display help for the tool. Here are all the switches it supports.
 
@@ -97,7 +97,7 @@ python3 sockit.py -H 86b6c59aa48a69e16d3313d982791398
 python3 sockit.py -p malicious.pcap -o hashes.txt
 ```
 
-<img width="631" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/945c2871-781f-4d99-ba4f-fffd1669bc74">
+<img width="698" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/eb38748f-cee2-4116-a553-f5f84de1b055">
 
 # Scan FILE Hash
 ```
