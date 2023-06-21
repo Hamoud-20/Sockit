@@ -110,6 +110,11 @@ python3 sockit.py -f hashes.txt
 python3 sockit.py -s d4fa6554b5f6243a50eb1453e440bba58da56f61
 ```
 <img width="749" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/6a9d0c51-3927-41fe-83c7-5b7bcc6dd3d9">
+
+```
+python3 sockit.py -s 87B5AD222944C6D791E6A9864C39B09650297EC0
+```
+
 <img width="809" alt="image" src="https://github.com/Hamoud-20/Sockit/assets/137123444/a2d81965-0ad1-4e37-9e5e-0cacefc0e09d">
 
 # Scan URL 
