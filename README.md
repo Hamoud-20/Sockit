@@ -117,6 +117,4 @@ This tool provides a way to quickly check IP addresses, domains, file hashes and
 
 So in summary, it provides an easy way to check IPs, domains, files and URLs for signs of malware using various threat intelligence APIs. The color-coded table output makes it easy to quickly identify suspicious entities.
 
-Hope this helps summarize the key features of the tool! Let me know if you have any other questions.
-We don't stop here, the tool will be updated and more features and improvements added 
 Happy threat hunting!
