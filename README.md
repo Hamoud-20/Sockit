@@ -35,6 +35,12 @@ Step 2:
 ```
 pip install -r requirements.txt
 ```
+Step 3:
+Set up your VirusTotal API and urlscan.io key:
+```
+
+```
+
 # Usage
 ```
 python3 sockit.py -h
